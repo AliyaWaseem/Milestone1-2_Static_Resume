@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Resume</title>
+  <link rel="icon" type="image/x-icon" href="asset/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <div class="logo-and-text">
+          <a href="#" class="navbar-brand">
+            <img src="asset/logo.png" alt="Logo" class="navbar-brand-icon">
+            <span class="navbar-brand-text">build<span> Resume</span>
+          </a>
+        </div>
+        <!-- <div id="themebtn">
+          <i class="fas fa-moon"></i>
+        </div> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- =====================About Section===================== -->
+
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <img src="asset/Profile-pic.png" alt="Profile Picture" class="profile-pic">
+      <div class="about-text">
+        <h1>Aliya Azeem </h1>
+        <p>I'm a passionate Web Developer with over 5 months of experience, skilled in creating responsive, user-friendly
+          websites.</p>
+        <p>I specialize in front-end technologies including HTML, CSS, JavaScript, and TypeScript, delivering top-notch
+          solutions for businesses.</p>
+        <p>My goal is to always build web applications that provide exceptional user experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================Form Section===================== -->
+  <form>
+    <section id="personal">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <h3>Email address:</h3>
+        <p>aliya@gmail.com</p>
+        <br/>
+        <h3>Contact No:</h3>
+        <p>1234567890, 0987654321</p>
+        <br/>
+        <h3>Address:</h3>
+        <p>Malir, Karachi. Pakistan.</p>
+      </fieldset>
+    </section>
+
+    <section id="work">
+      <fieldset>
+        <legend>Work Experience</legend>
+
+      <p>Full-Stack Developer at ABC Company Ltd. (2023-Present)</p>
+      <p>Junior Developer at XYZ Ltd. (2021-2022)</p>
+
+      </fieldset>
+    </section>
+
+    <section id="education">
+      <fieldset>
+        <legend>Education</legend>
+        <h3>Master's of Education</h3>
+        <p>Master's in Teacher Education from AIOU Islamabad.</p>
+        <br/>
+        <h3>Bachelor of Arts</h3>
+        <p>Bachelor's in Arts from AIOU Islamabad.</p>
+      <p>Graduation Year: 2014</p>
+
+      </fieldset>
+    </section>
+
+    <section id="skills" class="toggle-section">
+      <fieldset>
+        <legend>Skills</legend>
+        <ul>
+          <li>HTML5, CSS3, JavaScript, TypeScript</li>
+          <li>Tailwind CSS, Bootstrap</li>
+          <li>React, Next.js</li>
+          <li>Git, GitHub</li>
+        </ul>
+      </fieldset>
+    </section>
+    <div class="button-container">
+    <button id="toggleBtn">Hide/Show Skills</button>
+    <button id="Print-CV">Print CV</button>
+    </div>
+  </form>
+
+ 
+
+  <!-- ============================ Footer Section =========================== -->
+  <footer class="footer bg-dark text-white">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p>&copy; 2024 Aliya Azeem. All Rights Reserved.</p>
+        </div>
+        <div>
+          <ul class="footer-social-links">
+            <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="mailto:your.email@example.com"><i class="fa-solid fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

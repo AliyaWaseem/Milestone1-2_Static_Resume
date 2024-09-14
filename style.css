@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #f0f8f4;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+  
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0,0,0, 0.1) 0px 3px 8px;
+    background-color: #f0f8f4;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+  .navbar .container{
+    width: 100%;
+}
+/* .navbar-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+  
+  .navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+
+.navbar-brand-text{
+    color: rgb(36, 35, 35);
+    font-weight: 600;
+}
+
+.navbar-brand-text span{
+    color: rgb(8, 117, 180);
+}
+
+.navbar-brand-icon{
+    width: 25px;
+    margin-right: 6px;
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+}
+  
+  /* nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav ul li a {
+    color: rgb(3, 44, 68);
+    text-decoration: none;
+  } */
+  
+  .about-section {
+    margin-top: 50px;
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center; */
+    color: rgb(6, 65, 92);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background to improve text readability */
+    padding: 20px;
+    /* border-radius: 10px; */
+  }
+  
+  .about-container .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Box shadow for profile picture */
+    /* margin-right: 20px; */
+  }
+  
+  .about-text {
+    max-width: 800px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  
+  .about-text h1 {
+    margin-bottom: 10px;
+  }
+
+  /* ====================form styling====================== */
+  form{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+  }
+  
+  fieldset {
+    border: 2px solid #2c3e50;;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  legend{
+    /* font-family: "Playfair", serif; */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50;
+  }
+ 
+  h3 {
+    color: #007bff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  p, li {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    background-color: #07d155;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 5px;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #1b54aa;
+  }
+  
+  
+  /* ================Footer Styling=================== */
+.footer {
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    font-size: 14px;
+}
+.footer-content ul{
+  padding-left: 0;
+}
+
+.footer-social-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer-social-links a {
+    color: rgb(27, 81, 182);
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social-links a:hover {
+    color: #f39c12; /* Hover color */
+}
+
+
+@media only screen and (max-width: 384px) {
+
+  .footer-content{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .button-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
